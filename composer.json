@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/phpstan-phpstan",
+    "description": "Tyhp type definitions for phpstan/phpstan 2.2.14.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.2.14",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/phpstan-phpstan-impl": "~2.2.14.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/phpstan-phpstan-impl"
+        }
+    }
+}
